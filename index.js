@@ -88,9 +88,6 @@ async function blackboxAIChat(message) {
 async function cekjnt(resi) {
   const response = await axios.get(`https://api.binderbyte.com/v1/track?api_key=4bda755e0c2db98f4ba36a8d14d94543a13313af7caa3bf89db6b3e948510db4&courier=jnt&awb=${resi}`);
    return response.data;
-     } catch (error) {
-    throw error;
-  }
 }
 
 // Fungsi cepat
